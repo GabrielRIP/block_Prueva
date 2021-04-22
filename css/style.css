@@ -352,6 +352,7 @@ body {
 .nav__title {
   margin: 8px 0;
   color: #eaeaea;
+  border-right: 2px solid darkorange;
 }
 .nav__title2 {
   margin: 8px 0;

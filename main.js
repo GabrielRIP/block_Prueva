@@ -5,6 +5,24 @@ const title = document.getElementById('nav__title');
 const navBar = document.querySelector('.nav');
 const optionBtn = document.querySelector('.nav .nav__btn');
 
+//Maquina de escribir
+const maquinita = (text = '', tiempo = 200, etiqueta = '') => {
+  let arrayCaracteres = text.split('');
+  etiqueta.innerHTML;
+  let cont = 0;
+  let escribir = setInterval(function() {
+    etiqueta.innerHTML += arrayCaracteres[cont];
+    cont++;
+    if(cont ===arrayCaracteres.length) {
+      cont = 0;
+      etiqueta.innerHTML = '';
+    }
+  }, tiempo);
+}
+maquinita("_ I'm Creep _       ", 300, title);
+
+
+//Media, a partir de la resolucion de 768px
 let mq768 = window.matchMedia('(min-width: 768px)');
 
 const mediaQuery = (mq768) => {
@@ -44,5 +62,3 @@ const mediaQuery = (mq768) => {
 }
 mediaQuery(mq768);
 mq768.addListener(mediaQuery);
-
-
