@@ -19,7 +19,7 @@ const maquinita = (text = '', tiempo = 200, etiqueta = '') => {
     }
   }, tiempo);
 }
-maquinita("_ I'm Creep _       ", 300, title);
+maquinita("_ I'm Creep _        ", 295, title);
 
 
 //Media, a partir de la resolucion de 768px
