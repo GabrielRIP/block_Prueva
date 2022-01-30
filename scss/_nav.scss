@@ -27,6 +27,7 @@ body {
     border-right: 2px solid;
     padding-right: 2px;
     animation: parpadeo 1s linear infinite;
+
     @keyframes parpadeo {
       0% { border-color: Tomato; }
       50% { border-color: Tomato; }
@@ -37,10 +38,9 @@ body {
 }
 
 .nav__btn {
-  width: 2rem;
-  height: 2rem;
+  width: 2rem; height: 2rem;
   background-color: #3B3A32;
-  border-radius: 50%; 
+  border-radius: 50%;
   position: relative;
 
   & span {
@@ -101,34 +101,6 @@ body {
   background-color: #484748;
   border-radius: 0 0 5px 0;
   transition: all .5s ease-in-out;
-
-  li {
-    border: 1px solid #9C9D9D;
-    font-weight: 700;
-    width: 150px;
-    height: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: White;
-    list-style: none;
-    cursor: pointer;
-
-    & a {
-      color: White;
-      text-decoration: none;
-    }
-
-    &:hover{
-      background-color: DarkCyan;
-    }
-  }
 }
-.openFloat {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  width: calc(100% - 4rem);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
-}
+
+.openFloat { width: calc(100% - 4rem); }

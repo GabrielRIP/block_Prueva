@@ -1,7 +1,8 @@
 import './components/FloatOption.js'
+import './components/ButtonHamburger.js'
 
 const navTitle = document.querySelector('.nav__title')
-const hamgurger = document.querySelector('.nav__btn')
+const hamburger = document.querySelector('.nav__btn')
 const floatOption = document.querySelector('.floatOption')
 
 let time = 0
@@ -21,15 +22,15 @@ function printContentBoxFloat () {
 }
 
 let isOpen = false
-hamgurger.addEventListener('click', () => {
+hamburger.addEventListener('click', () => {
   if (!isOpen) {
     isOpen = true
-    hamgurger.classList.add('hamburgerOpen')
+    hamburger.classList.add('hamburgerOpen')
     floatOption.classList.add('openFloat')
     setTimeout(printContentBoxFloat, 400)
   } else {
     isOpen = false
-    hamgurger.classList.remove('hamburgerOpen')
+    hamburger.classList.remove('hamburgerOpen')
     floatOption.classList.remove('openFloat')
     floatOption.innerHTML = ''
     time = 0

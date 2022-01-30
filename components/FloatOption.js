@@ -8,11 +8,32 @@ class FloatOption extends HTMLElement {
     return `
       :host {
         display: flex;
-        column-gap: 2rem;
-        overflow-x: auto;
-        scroll-snap-type: x;
-        width: 80%;
-        margin: auto;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+      }
+
+      li {
+        border: 1px solid #9C9D9D;
+        font-weight: 700;
+        width: 150px;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: White;
+        list-style: none;
+        cursor: pointer;
+      }
+
+      li:hover { background-color: DarkCyan; }
+
+      a {
+        color: White;
+        text-decoration: none;
       }
     `
   }
@@ -26,8 +47,8 @@ class FloatOption extends HTMLElement {
       <style>${FloatOption.styles}</style>
 
       <li><a href="#">More</a></li>
-      <li ><a href="#">Tools</a></li>
-      <li ><a href="#">Other</a></li>
+      <li><a href="#">Tools</a></li>
+      <li><a href="#">Other</a></li>
     `
   }
 }
