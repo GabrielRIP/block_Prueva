@@ -21,14 +21,15 @@ body {
   background-color: #222326;
   padding: 0 1rem;
   position: relative;
+
   &__title {
-    color: #eaeaea;
+    color: #EAEAEA;
     border-right: 2px solid;
     padding-right: 2px;
     animation: parpadeo 1s linear infinite;
     @keyframes parpadeo {
-      0% { border-color: tomato; }
-      50% { border-color: tomato; }
+      0% { border-color: Tomato; }
+      50% { border-color: Tomato; }
       51% { border-color: transparent; }
       100% { border-color: transparent; }
     }
@@ -41,6 +42,7 @@ body {
   background-color: #3B3A32;
   border-radius: 50%; 
   position: relative;
+
   & span {
     position: absolute;
     top: 50%;
@@ -49,35 +51,42 @@ body {
     width: 1.3rem;
     height: 2px;
     border-radius: 2px;
-    background-color: tomato;
+    background-color: Tomato;
     transition: all .5s ease-in-out;
   }
+
   & span:first-child {
     transform: translate(-50%, calc(-50% - 7px));
   }
+
   & span:last-child {
     transform: translate(-50%, calc(-50% + 7px));
   }
 }
+
 .hamburgerOpen {
   & span:nth-child(2), span:nth-child(3) {
-    background-color: red;
+    background-color: Red;
     width: 1.6rem;
     height: 3px;
   }
+
   & span:nth-child(1) {
     transform: translate(-50%, calc(-50% - 14px));
     width: 1rem;
     background-color: transparent;
   }
+
   & span:nth-child(4) {
     transform: translate(-50%, calc(-50% + 14px));
     width: .5rem;
     background-color: transparent;
   }
+
   & span:nth-child(2) {
     transform: translate(-50%, -50%) rotate(45deg);
   }
+
   & span:nth-child(3) {
     transform: translate(-50%, -50%) rotate(-45deg);
   }
@@ -92,6 +101,7 @@ body {
   background-color: #484748;
   border-radius: 0 0 5px 0;
   transition: all .5s ease-in-out;
+
   li {
     border: 1px solid #9C9D9D;
     font-weight: 700;
@@ -100,15 +110,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: White;
     list-style: none;
     cursor: pointer;
+
     & a {
-      color: white;
+      color: White;
       text-decoration: none;
     }
+
     &:hover{
-      background-color: darkcyan;
+      background-color: DarkCyan;
     }
   }
 }

@@ -1,5 +1,7 @@
-const navTitle = document.querySelector('.nav__title');
-const hamgurger = document.querySelector('.nav__btn');
+import './components/FloatOption.js'
+
+const navTitle = document.querySelector('.nav__title')
+const hamgurger = document.querySelector('.nav__btn')
 const floatOption = document.querySelector('.floatOption')
 
 let time = 0
@@ -15,14 +17,10 @@ navTitle.innerHTML = ''
 printTextTitleNav()
 
 function printContentBoxFloat () {
-  return floatOption.innerHTML = `
-    <li><a href="#">More</a></li>
-    <li ><a href="#">Tools</a></li>
-    <li ><a href="#">Other</a></li>
-  `
+  floatOption.innerHTML = '<float-option></float-option>'
 }
 
-let isOpen = false;
+let isOpen = false
 hamgurger.addEventListener('click', () => {
   if (!isOpen) {
     isOpen = true
@@ -40,4 +38,3 @@ hamgurger.addEventListener('click', () => {
     setTimeout(printTextTitleNav, 400)
   }
 })
-

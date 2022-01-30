@@ -23,17 +23,17 @@ body {
   position: relative;
 }
 .nav__title {
-  color: #eaeaea;
+  color: #EAEAEA;
   border-right: 2px solid;
   padding-right: 2px;
   animation: parpadeo 1s linear infinite;
 }
 @keyframes parpadeo {
   0% {
-    border-color: tomato;
+    border-color: Tomato;
   }
   50% {
-    border-color: tomato;
+    border-color: Tomato;
   }
   51% {
     border-color: transparent;
@@ -58,7 +58,7 @@ body {
   width: 1.3rem;
   height: 2px;
   border-radius: 2px;
-  background-color: tomato;
+  background-color: Tomato;
   transition: all 0.5s ease-in-out;
 }
 .nav__btn span:first-child {
@@ -69,7 +69,7 @@ body {
 }
 
 .hamburgerOpen span:nth-child(2), .hamburgerOpen span:nth-child(3) {
-  background-color: red;
+  background-color: Red;
   width: 1.6rem;
   height: 3px;
 }
@@ -108,16 +108,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: White;
   list-style: none;
   cursor: pointer;
 }
 .floatOption li a {
-  color: white;
+  color: White;
   text-decoration: none;
 }
 .floatOption li:hover {
-  background-color: darkcyan;
+  background-color: DarkCyan;
 }
 
 .openFloat {
