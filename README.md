@@ -7,9 +7,9 @@
   2. eslint-config-standard
 - JavaScript Modules
 
-<img style="width: 8rem; margin-left: 50%; transform: translateX(-50%)" src="https://lenguajejs.com/javascript/logo.svg" alt='js'>
+![imagen Js](https://lenguajejs.com/javascript/logo.svg =200x)
 
 - Web Components
 
-<img style="width: 6rem; margin-left: 50%; transform: translateX(-50%)" src="https://lenguajejs.com/assets/webcomponents.jpg" alt="la verga">
+![imagen Web Components](https://lenguajejs.com/assets/webcomponents.jpg =200x)
 
