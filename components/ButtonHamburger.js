@@ -1,5 +1,3 @@
-import './FloatOption.js'
-
 class ButtonHamburger extends HTMLElement {
   constructor () {
     super()

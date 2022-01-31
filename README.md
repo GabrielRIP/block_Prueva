@@ -1,4 +1,15 @@
-# block_Prueva
-este es el primer commit, solo esta la barra del nav, pero lo mejorare con el tiempo.
+# Block Para Pruevas
+* Por el momento solo tengo **la barra del Nav**, por el momento y una ventana emergente.
 
-para el segundo commit, solo se agrego interactividad al titulo, para que se muestre como si fuera escrita por una maquina de escrir. Solo un poco de jS.
+## Dependencias:
+- Nodejs:
+  1. eslint
+  2. eslint-config-standard
+- JavaScript Modules
+
+<img style="width: 8rem; margin-left: 50%; transform: translateX(-50%)" src="https://lenguajejs.com/javascript/logo.svg" alt='js'>
+
+- Web Components
+
+<img style="width: 6rem; margin-left: 50%; transform: translateX(-50%)" src="https://lenguajejs.com/assets/webcomponents.jpg" alt="la verga">
+
