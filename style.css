@@ -43,53 +43,6 @@ body {
   }
 }
 
-.nav__btn {
-  width: 2rem;
-  height: 2rem;
-  background-color: #3B3A32;
-  border-radius: 50%;
-  position: relative;
-}
-.nav__btn span {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 1.3rem;
-  height: 2px;
-  border-radius: 2px;
-  background-color: Tomato;
-  transition: all 0.5s ease-in-out;
-}
-.nav__btn span:first-child {
-  transform: translate(-50%, calc(-50% - 7px));
-}
-.nav__btn span:last-child {
-  transform: translate(-50%, calc(-50% + 7px));
-}
-
-.hamburgerOpen span:nth-child(2), .hamburgerOpen span:nth-child(3) {
-  background-color: Red;
-  width: 1.6rem;
-  height: 3px;
-}
-.hamburgerOpen span:nth-child(1) {
-  transform: translate(-50%, calc(-50% - 14px));
-  width: 1rem;
-  background-color: transparent;
-}
-.hamburgerOpen span:nth-child(4) {
-  transform: translate(-50%, calc(-50% + 14px));
-  width: 0.5rem;
-  background-color: transparent;
-}
-.hamburgerOpen span:nth-child(2) {
-  transform: translate(-50%, -50%) rotate(45deg);
-}
-.hamburgerOpen span:nth-child(3) {
-  transform: translate(-50%, -50%) rotate(-45deg);
-}
-
 .floatOption {
   position: absolute;
   top: 0;
@@ -100,33 +53,8 @@ body {
   border-radius: 0 0 5px 0;
   transition: all 0.5s ease-in-out;
 }
-.floatOption li {
-  border: 1px solid #9C9D9D;
-  font-weight: 700;
-  width: 150px;
-  height: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: White;
-  list-style: none;
-  cursor: pointer;
-}
-.floatOption li a {
-  color: White;
-  text-decoration: none;
-}
-.floatOption li:hover {
-  background-color: DarkCyan;
-}
-
-.openFloat {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
+.floatOption.openFloat {
   width: calc(100% - 4rem);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
 
 /*# sourceMappingURL=style.css.map */

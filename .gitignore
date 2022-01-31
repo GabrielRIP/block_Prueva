@@ -1,5 +1,5 @@
 # Ignorar la carpeta de scss
 
-/style.css.map
+style.css.map
 .git/
 node_modules/
