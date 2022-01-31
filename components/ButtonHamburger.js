@@ -64,7 +64,6 @@ class ButtonHamburger extends HTMLElement {
   }
 
   infoStatus (state) {
-    console.log(this.shadowRoot.children[1].classList)
     if (state === false) {
       this.state = true
       this.shadowRoot.children[1].classList.add('primer-mod')
